@@ -15,10 +15,14 @@ pip install uv
 pipx install uv
 
 uv venv mcp
+
+python -m venv mcp
 source mcp/Scripts/activate
 
 uv init
 
-uv add -r requirements.txt --active
+
+
+uv add -r requirements.txt
 
 uv add ipykernel
